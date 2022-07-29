@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <form action="">
+
+        <div class="row">
+
+            <div class="col">
+
+                    <!-- titre -->
+                <h3 class="title">Formulaire de paiment</h3>
+
+                <p> Les champs de texte suivie par * sont obligatoire </p>
+
+                <h3>Information de Contact </h3>
+                    <!-- Nom Prénom -->
+                <div class="inputBox">
+                    <span>Nom Prenom :</span>
+                    <input type="text" placeholder="Bob L'éponge">
+                </div>
+
+                <!-- email -->
+                <div class="inputBox">
+                    <span>email :</span>
+                    <input type="email" placeholder="monadressseemail@outlook.com">
+                </div>
+
+                <!-- Adresse -->
+                <div class="inputBox">
+                    <span>Adresse :</span>
+                    <input type="text" placeholder=" 50 Boulevard , Marseille ">
+                </div>
+
+                <!-- Ville -->
+                <div class="inputBox">
+                    <span>city :</span>
+                    <input type="text" placeholder="Marseille">
+                </div>
+
+                <!-- Pays -->
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>Pays :</span>
+                        <input type="text" placeholder="France">
+                    </div>
+
+                    <!-- Code Postale -->
+                    <div class="inputBox">
+                        <span>Code Postale :</span>
+                        <input type="text" placeholder="13013">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">Paiment</h3>
+
+                <div class="inputBox">
+                    <span>Carte Acceptée :</span>
+                    <img src="images/card_img.png" alt="">
+                </div>
+
+                <!-- Nom carte  -->
+                <div class="inputBox">
+                    <span>Nom carte  :</span>
+                    <input type="text" placeholder="Mr. Bob L'eponge">
+                </div>
+
+                <!-- numero de carte  -->
+                <div class="inputBox">
+                    <span>numero de carte :</span>
+                    <input type="number" placeholder="1111-2222-3333-4444">
+                </div>
+
+                <!-- Mois expiration  -->
+                <div class="inputBox">
+                    <span>Mois expiration  :</span>
+                    <input type="text" placeholder="Janvier">
+                </div>
+
+                <!-- Année expiration -->
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>Année expiration :</span>
+                        <input type="number" placeholder="2022">
+                    </div>
+
+                    <!-- Code CVV -->
+                    <div class="inputBox">
+                        <span>Code CVV :</span>
+                        <input type="text" placeholder="1234">
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+
+        <input type="submit" value="Valider la commande" class="submit-btn">
+
+    </form>
+
+</div>    
+    
+</body>
+</html>
